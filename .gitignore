@@ -1,0 +1,102 @@
+# AI Creator Starter
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# Cookie和密钥
+config/cookies/*.json
+config/cookies/*.enc
+*.key
+*.pem
+secrets/
+
+# 数据文件
+data/*.db
+data/*.sqlite
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# 日志
+logs/*.log
+*.log
+
+# 缓存
+cache/*
+!cache/.gitkeep
+
+# 截图和临时文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.project
+.pydevproject
+.settings/
+
+# 操作系统
+.Ds_Store
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# 编译产物
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+obj/
+
+# Docker
+docker-compose.override.yml
+
+# 备份
+backups/
+*.backup
