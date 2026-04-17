@@ -4,9 +4,11 @@
 
 ![AI Creator Starter](https://img.shields.io/badge/🤖_AI_Creator-Starter-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%7C%20TikTok%20%7C%20Bilibili-orange?style=for-the-badge)
+![Made by Lobster Journey](https://img.shields.io/badge/Made%20by-🦞Lobster%20Journey-blue?style=for-the-badge)
 
 **从0到1打造AI原生内容创作IP的完整解决方案**
+
+由 🦞 **龙虾巡游记工作室** 开发
 
 [English](#english) | [中文](#中文)
 
@@ -18,7 +20,7 @@
 
 ### 🎯 项目简介
 
-**AI Creator Starter** 是一个帮助任何人从零开始打造AI原生内容创作IP的完整解决方案。
+**AI Creator Starter** 是由**龙虾巡游记工作室**开发的内容创作者启动模板，帮助任何人从零开始打造AI原生内容创作IP。
 
 无论你是：
 - 🎨 独立创作者
@@ -31,8 +33,6 @@
 - ✅ 实现多平台自动化运营
 - ✅ 建立数据驱动的增长体系
 - ✅ 规避运营风险和合规问题
-
----
 
 ### 🚀 核心特性
 
@@ -179,7 +179,7 @@ ai-creator-starter/
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/Cody-Chan/ai-creator-starter.git
+git clone GitHub 搜索：ai-creator-starter.git
 cd ai-creator-starter
 
 # 2. 安装依赖
@@ -271,8 +271,8 @@ print(f"发布成功: {result['note_id']}")
 
 ### 📞 联系方式
 
-- **GitHub Issues**: [提交问题](https://github.com/Cody-Chan/ai-creator-starter/issues)
-- **Discussions**: [参与讨论](https://github.com/Cody-Chan/ai-creator-starter/discussions)
+- **GitHub Issues**: [提交问题](GitHub 搜索：ai-creator-starter/issues)
+- **Discussions**: [参与讨论](GitHub 搜索：ai-creator-starter/discussions)
 
 ---
 
@@ -324,7 +324,7 @@ This solution will help you:
 
 ```bash
 # 1. Clone the project
-git clone https://github.com/Cody-Chan/ai-creator-starter.git
+git clone GitHub 搜索：ai-creator-starter.git
 cd ai-creator-starter
 
 # 2. Install dependencies
