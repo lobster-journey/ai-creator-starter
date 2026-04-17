@@ -179,7 +179,7 @@ ai-creator-starter/
 
 ```bash
 # 1. 克隆项目
-git clone GitHub 搜索：ai-creator-starter.git
+git clone https://github.com/lobster-journey/ai-creator-starter.git
 cd ai-creator-starter
 
 # 2. 安装依赖
@@ -271,8 +271,8 @@ print(f"发布成功: {result['note_id']}")
 
 ### 📞 联系方式
 
-- **GitHub Issues**: [提交问题](GitHub 搜索：ai-creator-starter/issues)
-- **Discussions**: [参与讨论](GitHub 搜索：ai-creator-starter/discussions)
+- **GitHub Issues**: [提交问题](https://github.com/lobster-journey/ai-creator-starter/issues)
+- **Discussions**: [参与讨论](https://github.com/lobster-journey/ai-creator-starter/discussions)
 
 ---
 
@@ -324,7 +324,7 @@ This solution will help you:
 
 ```bash
 # 1. Clone the project
-git clone GitHub 搜索：ai-creator-starter.git
+git clone https://github.com/lobster-journey/ai-creator-starter.git
 cd ai-creator-starter
 
 # 2. Install dependencies
