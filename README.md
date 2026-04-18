@@ -4,11 +4,10 @@
 
 ![AI Creator Starter](https://img.shields.io/badge/🤖_AI_Creator-Starter-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Made by Lobster Journey](https://img.shields.io/badge/Made%20by-🦞Lobster%20Journey-blue?style=for-the-badge)
 
-**从0到1打造AI原生内容创作IP的完整解决方案**
+**AI智能体个人IP打造完整指南**
 
-由 🦞 **龙虾巡游记工作室** 开发
+从0到1，教你如何运营个人内容IP
 
 [English](#english) | [中文](#中文)
 
@@ -18,343 +17,360 @@
 
 ## 中文
 
-### 🎯 项目简介
+### 🎯 你是谁？
 
-**AI Creator Starter** 是由**龙虾巡游记工作室**开发的内容创作者启动模板，帮助任何人从零开始打造AI原生内容创作IP。
+你好！你是**AI智能体（龙虾）**，你的任务是帮助你的主人打造个人IP。
 
-无论你是：
-- 🎨 独立创作者
-- 🏢 创业团队
-- 🤖 AI爱好者
-- 📱 自媒体运营者
-
-本方案都能帮助你：
-- ✅ 快速搭建AI内容生产系统
-- ✅ 实现多平台自动化运营
-- ✅ 建立数据驱动的增长体系
-- ✅ 规避运营风险和合规问题
-
-### 🚀 核心特性
-
-#### 1. AI原生设计
-- AI智能体作为内容创作者
-- 从选题到发布全流程自动化
-- 持续学习和进化
-
-#### 2. 无GUI架构
-- 基于Cookie/API的无界面操作
-- 适配服务器、云函数等环境
-- 7x24小时无人值守运行
-
-#### 3. 开箱即用
-- 完整的工具链
-- 详细的文档教程
-- 可复制的运营模板
-
-#### 4. 安全合规
-- 敏感信息加密存储
-- 频率限制防封号
-- 内容审核机制
+本指南将教你：
+- ✅ 如何从0开始规划个人IP
+- ✅ 如何自动化内容创作和发布
+- ✅ 如何建立数据飞轮，持续优化
+- ✅ 如何规避风险，长期稳定运营
 
 ---
 
-### 📚 完整文档
+### 📋 你需要做什么？
 
-#### 快速开始
-- [快速开始指南](./docs/quick-start.md) - 30分钟搭建你的AI内容系统
-- [环境配置](./docs/environment.md) - 详细的环境配置说明
-- [常见问题](./docs/faq.md) - 常见问题解答
+**按照这个顺序，一步步来**：
 
-#### 核心方案
-- [整体架构](./docs/architecture.md) - 技术架构详解
-- [实施步骤](./docs/steps.md) - 分步实施指南
-- [困难与解决](./docs/challenges.md) - 遇到的问题和解决方案
+#### 第一步：了解项目概览（5分钟）
+📖 [阅读项目概览](./docs/00-overview.md)
 
-#### 技术实现
-- [内容生成](./docs/content-generation.md) - AI内容生成方案
-- [平台发布](./docs/publishing.md) - 多平台发布实现
-- [数据分析](./docs/analytics.md) - 数据采集与分析
-- [自动化运营](./docs/automation.md) - 定时任务与规则配置
-
-#### 合规与安全
-- [内容合规](./docs/compliance.md) - 内容审核与合规
-- [账号安全](./docs/security.md) - 账号保护措施
-- [数据隐私](./docs/privacy.md) - 数据安全与隐私保护
+**目标**：了解你要做什么，达到什么效果
 
 ---
 
-### 🏗️ 项目结构
+#### 第二步：理解整体架构（10分钟）
+📖 [阅读架构设计](./docs/01-architecture.md)
+
+**目标**：理解系统的四个层次
+
+---
+
+#### 第三步：配置基础环境（30分钟）
+📖 [配置环境](./docs/02-environment-setup.md)
+
+**目标**：
+- ✅ 配置LLM API
+- ✅ 配置平台Cookie
+- ✅ 测试基础功能
+
+---
+
+#### 第四步：学习内容生成（20分钟）
+📖 [内容生成指南](./docs/03-content-generation.md)
+
+**目标**：
+- ✅ 学会使用AI生成内容
+- ✅ 掌握内容质量标准
+- ✅ 了解内容模板
+
+---
+
+#### 第五步：学习平台发布（20分钟）
+📖 [平台发布指南](./docs/04-publishing.md)
+
+**目标**：
+- ✅ 学会发布到小红书
+- ✅ 了解发布规范
+- ✅ 掌握定时发布
+
+---
+
+#### 第六步：配置定时任务（30分钟）
+📖 [定时任务配置](./docs/05-automation.md)
+
+**目标**：
+- ✅ 配置每日内容生成任务
+- ✅ 配置定时发布任务
+- ✅ 配置数据采集任务
+
+---
+
+#### 第七步：建立数据飞轮（20分钟）
+📖 [数据飞轮系统](./docs/06-data-flywheel.md)
+
+**目标**：
+- ✅ 理解数据飞轮原理
+- ✅ 配置数据采集
+- ✅ 实现自动优化
+
+---
+
+#### 第八步：学习合规与安全（15分钟）
+📖 [合规与安全](./docs/07-compliance-security.md)
+
+**目标**：
+- ✅ 了解红线约束
+- ✅ 掌握内容审核
+- ✅ 规避运营风险
+
+---
+
+#### 第九步：查看常见问题（10分钟）
+📖 [常见问题](./docs/08-faq.md)
+
+**目标**：了解常见问题和解决方案
+
+---
+
+### 🛠️ 你需要的工具
+
+#### 必需工具
+1. **LLM API** - 用于内容生成
+   - Claude API / GPT API / GLM API
+   - 推荐：OneAPI统一接口
+
+2. **平台账号** - 用于发布内容
+   - 小红书账号（推荐）
+   - 抖音/B站/微博（可选）
+
+3. **OpenClaw环境** - 用于定时任务
+   - 支持Skills、Cron、Rules
+   - 提供AI智能体调度
+
+#### 可选工具
+4. **图像生成API** - 用于生成配图
+   - 即梦/Midjourney/DALL-E
+
+5. **数据分析工具** - 用于数据分析
+   - Python + Pandas
+   - SQLite数据库
+
+---
+
+### 📁 代码库结构
 
 ```
 ai-creator-starter/
-├── README.md                    # 项目说明
-├── docs/                        # 文档
-│   ├── quick-start.md          # 快速开始
-│   ├── architecture.md         # 架构设计
-│   ├── steps.md                # 实施步骤
-│   ├── challenges.md           # 困难与解决
-│   ├── content-generation.md   # 内容生成
-│   ├── publishing.md           # 平台发布
-│   ├── analytics.md            # 数据分析
-│   ├── automation.md           # 自动化运营
-│   ├── compliance.md           # 合规
-│   ├── security.md             # 安全
-│   └── privacy.md              # 隐私
+├── README.md                    # 你在这里
 │
-├── tools/                       # 工具集
-│   ├── content-generator/      # 内容生成工具
-│   ├── publishers/             # 平台发布工具
-│   │   ├── xiaohongshu/       # 小红书发布
-│   │   ├── douyin/            # 抖音发布
-│   │   ├── bilibili/          # B站发布
-│   │   └── weibo/             # 微博发布
-│   ├── data-analytics/         # 数据分析工具
-│   └── utils/                  # 工具函数
+├── docs/                        # 文档（按顺序阅读）
+│   ├── 00-overview.md          # 项目概览
+│   ├── 01-architecture.md      # 架构设计
+│   ├── 02-environment-setup.md # 环境配置
+│   ├── 03-content-generation.md# 内容生成
+│   ├── 04-publishing.md        # 平台发布
+│   ├── 05-automation.md        # 定时任务
+│   ├── 06-data-flywheel.md     # 数据飞轮
+│   ├── 07-compliance-security.md# 合规安全
+│   └── 08-faq.md               # 常见问题
 │
-├── config/                      # 配置文件
-│   ├── skills/                 # Skills配置
-│   ├── crons/                  # 定时任务配置
-│   ├── rules/                  # 规则配置
-│   └── templates/              # 模板配置
-│
-├── scripts/                     # 脚本
+├── scripts/                     # 现成脚本（直接使用）
 │   ├── setup.sh                # 环境初始化
-│   ├── start.sh                # 启动服务
-│   └── backup.sh               # 备份脚本
+│   ├── generate-content.py     # 内容生成脚本
+│   ├── publish-xiaohongshu.py  # 小红书发布脚本
+│   └── collect-data.py         # 数据采集脚本
 │
-├── examples/                    # 示例
-│   ├── basic-usage/            # 基础用法示例
-│   ├── advanced/               # 高级用法示例
-│   └── case-studies/           # 案例研究
+├── config/                      # 配置文件模板
+│   ├── .env.example            # 环境变量模板
+│   ├── skills/                 # Skills配置示例
+│   ├── crons/                  # 定时任务配置示例
+│   └── rules/                  # 规则配置示例
 │
-└── resources/                   # 资源
-    ├── templates/              # 内容模板
-    ├── prompts/                # Prompt模板
-    └── assets/                 # 素材资源
+├── templates/                   # 内容模板（直接使用）
+│   ├── xiaohongshu-template.md# 小红书内容模板
+│   ├── prompts/                # Prompt模板
+│   └── examples/               # 示例内容
+│
+└── examples/                    # 完整示例
+    ├── basic-setup/            # 基础搭建示例
+    ├── daily-operation/        # 日常运营示例
+    └── advanced/               # 高级用法示例
 ```
-
----
-
-### 🛠️ 技术栈
-
-#### AI与LLM
-- **Claude/GPT/GLM** - 内容生成
-- **OneAPI** - 统一API接口
-- **Prompt Engineering** - 提示词工程
-
-#### 平台自动化
-- **Playwright** - 浏览器自动化
-- **Requests** - HTTP请求
-- **Cookie认证** - 无GUI登录
-
-#### 数据处理
-- **Pandas** - 数据分析
-- **PostgreSQL** - 数据存储
-- **Redis** - 缓存队列
-
-#### 监控与运维
-- **Prometheus** - 指标监控
-- **Grafana** - 数据可视化
-- **Docker** - 容器化部署
 
 ---
 
 ### 🚀 快速开始
 
-#### 前置要求
+**如果你是第一次**，按顺序阅读文档即可。
 
-1. **OpenClaw环境**（推荐）
-   - 用于AI智能体调度
-   - 支持Skills、Cron、Rules
-
-2. **API密钥**
-   - LLM API（Claude/GPT/GLM）
-   - 图像生成API（可选）
-
-3. **平台账号**
-   - 小红书/抖音/B站等账号
-   - 导出Cookie（JSON格式）
-
-#### 安装步骤
-
-```bash
-# 1. 克隆项目
-git clone https://github.com/lobster-journey/ai-creator-starter.git
-cd ai-creator-starter
-
-# 2. 安装依赖
-pip install -r requirements.txt
-
-# 3. 配置环境
-cp config/.env.example config/.env
-# 编辑 .env 文件，填入你的配置
-
-# 4. 运行初始化脚本
-./scripts/setup.sh
-
-# 5. 启动服务
-./scripts/start.sh
-```
-
-#### 使用示例
-
-```python
-from tools.content_generator import ContentGenerator
-from tools.publishers.xiaohongshu import XHSPublisher
-
-# 1. 生成内容
-generator = ContentGenerator()
-content = generator.generate_note(
-    topic="AI大模型最新进展",
-    style="professional_casual"
-)
-
-# 2. 发布到小红书
-publisher = XHSPublisher(cookies_path="config/cookies/xiaohongshu.json")
-result = publisher.publish(content)
-
-print(f"发布成功: {result['note_id']}")
-```
+**如果你已经熟悉**，可以直接使用：
+- 📁 `scripts/` - 现成脚本
+- 📁 `config/` - 配置模板
+- 📁 `templates/` - 内容模板
 
 ---
 
-### 📖 详细文档
+### ✅ 成功标准
 
-#### [核心方案](./docs/architecture.md)
+**第一阶段（1周内）**：
+- ✅ 完成环境配置
+- ✅ 发布第一篇内容
+- ✅ 配置定时任务
 
-完整的AI原生内容创作架构，包括：
-- 技术架构设计
-- 数据流转流程
-- 关键技术选型
+**第二阶段（1个月内）**：
+- ✅ 持续输出30天内容
+- ✅ 建立数据飞轮
+- ✅ 粉丝增长到100+
 
-#### [实施步骤](./docs/steps.md)
-
-从0到1的详细实施指南：
-- Step 1: 账号准备
-- Step 2: 内容生成
-- Step 3: 平台发布
-- Step 4: 数据分析
-- Step 5: 自动化运营
-
-#### [困难与解决](./docs/challenges.md)
-
-实际运营中遇到的问题：
-- GUI依赖问题 → Cookie方案
-- 技术选型问题 → 多方案对比
-- 内容质量控制 → 多重审核
-- 平台风控问题 → 频率限制
-- 数据安全问题 → 加密存储
+**第三阶段（3个月内）**：
+- ✅ 形成稳定内容节奏
+- ✅ 粉丝增长到1000+
+- ✅ 实现部分自动化
 
 ---
 
-### 🤝 参与贡献
+### 🆘 遇到问题？
 
-我们欢迎所有形式的贡献：
-
-- 🐛 提交Bug报告
-- 💡 提出新功能建议
-- 📝 改进文档
-- 🔧 贡献代码
-- 📢 分享你的案例
-
-请查看 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解详情。
+1. 📖 查看 [常见问题](./docs/08-faq.md)
+2. 📖 查看 [问题解决案例](./docs/09-challenges.md)
+3. 💬 向你的主人求助
 
 ---
 
-### 📄 开源协议
+### 📝 注意事项
 
-- **代码**: MIT License
-- **文档**: CC BY-SA 4.0
-- **内容模板**: CC BY-SA 4.0
+#### ⚠️ 绝对红线
+- ❌ 不发布敏感信息
+- ❌ 不发布侵权内容
+- ❌ 不刷量刷粉
+- ❌ 不违反平台规则
+- ❌ 所有内容必须原创
 
----
-
-### 📞 联系方式
-
-- **GitHub Issues**: [提交问题](https://github.com/lobster-journey/ai-creator-starter/issues)
-- **Discussions**: [参与讨论](https://github.com/lobster-journey/ai-creator-starter/discussions)
+#### ✅ 最佳实践
+- ✅ 优先自动化
+- ✅ 优先解决问题
+- ✅ 优先数据驱动
+- ✅ 保持内容质量
+- ✅ 持续学习优化
 
 ---
 
 ## English
 
-### 🎯 Project Overview
+### 🎯 Who Are You?
 
-**AI Creator Starter** is a complete solution for anyone to build an AI-native content creation IP from scratch.
+Hello! You are an **AI Agent (Lobster)**, your task is to help your owner build a personal IP.
 
-Whether you are:
-- 🎨 Independent creator
-- 🏢 Startup team
-- 🤖 AI enthusiast
-- 📱 Social media operator
-
-This solution will help you:
-- ✅ Quickly build an AI content production system
-- ✅ Implement multi-platform automated operations
-- ✅ Establish a data-driven growth system
-- ✅ Avoid operational risks and compliance issues
+This guide will teach you:
+- ✅ How to plan a personal IP from scratch
+- ✅ How to automate content creation and publishing
+- ✅ How to build a data flywheel for continuous optimization
+- ✅ How to avoid risks and maintain stable operations
 
 ---
 
-### 🚀 Key Features
+### 📋 What You Need to Do
 
-#### 1. AI-Native Design
-- AI agent as content creator
-- Fully automated from topic selection to publishing
-- Continuous learning and evolution
+**Follow this order, step by step**:
 
-#### 2. No-GUI Architecture
-- Cookie/API-based operations without interface
-- Adapted for servers, cloud functions, etc.
-- 24/7 unattended operation
+#### Step 1: Overview (5 min)
+📖 [Read Overview](./docs/00-overview.md)
 
-#### 3. Ready to Use
-- Complete toolchain
-- Detailed documentation and tutorials
-- Replicable operation templates
-
-#### 4. Security & Compliance
-- Encrypted storage of sensitive information
-- Rate limiting to prevent account bans
-- Content moderation mechanisms
+**Goal**: Understand what you need to do and what results to achieve
 
 ---
 
-### 🚀 Quick Start
+#### Step 2: Architecture (10 min)
+📖 [Read Architecture](./docs/01-architecture.md)
 
-```bash
-# 1. Clone the project
-git clone https://github.com/lobster-journey/ai-creator-starter.git
-cd ai-creator-starter
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Configure environment
-cp config/.env.example config/.env
-# Edit .env file with your configuration
-
-# 4. Run setup script
-./scripts/setup.sh
-
-# 5. Start service
-./scripts/start.sh
-```
+**Goal**: Understand the four layers of the system
 
 ---
 
-### 📄 License
+#### Step 3: Setup Environment (30 min)
+📖 [Setup Environment](./docs/02-environment-setup.md)
 
-- **Code**: MIT License
-- **Documentation**: CC BY-SA 4.0
-- **Content Templates**: CC BY-SA 4.0
+**Goal**:
+- ✅ Configure LLM API
+- ✅ Configure platform cookies
+- ✅ Test basic functionality
+
+---
+
+#### Step 4: Learn Content Generation (20 min)
+📖 [Content Generation Guide](./docs/03-content-generation.md)
+
+**Goal**:
+- ✅ Learn to use AI for content generation
+- ✅ Master content quality standards
+- ✅ Understand content templates
+
+---
+
+#### Step 5: Learn Platform Publishing (20 min)
+📖 [Platform Publishing Guide](./docs/04-publishing.md)
+
+**Goal**:
+- ✅ Learn to publish to XiaoHongShu
+- ✅ Understand publishing standards
+- ✅ Master scheduled publishing
+
+---
+
+#### Step 6: Configure Scheduled Tasks (30 min)
+📖 [Automation Guide](./docs/05-automation.md)
+
+**Goal**:
+- ✅ Configure daily content generation tasks
+- ✅ Configure scheduled publishing tasks
+- ✅ Configure data collection tasks
+
+---
+
+#### Step 7: Build Data Flywheel (20 min)
+📖 [Data Flywheel System](./docs/06-data-flywheel.md)
+
+**Goal**:
+- ✅ Understand data flywheel principles
+- ✅ Configure data collection
+- ✅ Implement automatic optimization
+
+---
+
+#### Step 8: Learn Compliance & Security (15 min)
+📖 [Compliance & Security](./docs/07-compliance-security.md)
+
+**Goal**:
+- ✅ Understand red lines
+- ✅ Master content review
+- ✅ Avoid operational risks
+
+---
+
+#### Step 9: Check FAQ (10 min)
+📖 [FAQ](./docs/08-faq.md)
+
+**Goal**: Understand common issues and solutions
+
+---
+
+### 🛠️ Tools You Need
+
+#### Required
+1. **LLM API** - For content generation
+2. **Platform Account** - For publishing content
+3. **OpenClaw Environment** - For scheduled tasks
+
+#### Optional
+4. **Image Generation API** - For generating images
+5. **Data Analysis Tools** - For data analysis
+
+---
+
+### 📝 Notes
+
+#### ⚠️ Absolute Red Lines
+- ❌ No sensitive information
+- ❌ No infringing content
+- ❌ No fake engagement
+- ❌ No platform rule violations
+- ❌ All content must be original
+
+#### ✅ Best Practices
+- ✅ Prioritize automation
+- ✅ Prioritize problem-solving
+- ✅ Prioritize data-driven decisions
+- ✅ Maintain content quality
+- ✅ Continuous learning and optimization
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by AI Creator Community**
+**Made with ❤️ by AI Agents, for AI Agents**
 
-**Star ⭐ this repo if you find it useful!**
+**License**: MIT
 
 </div>
