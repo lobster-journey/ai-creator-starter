@@ -17,56 +17,120 @@
 
 ## 1️⃣ 配置LLM API
 
-### 方式一：使用OneAPI（推荐）
+### 获取API密钥
 
-**优点**：
-- 统一接口
-- 多模型切换
-- 成本可控
+你需要选择一个LLM服务并获取API密钥：
 
-**步骤**：
-1. 注册OneAPI账号
-2. 获取API Key
-3. 配置到环境变量
+#### Claude (Anthropic)
 
+**注册步骤**：
+1. 访问官网：https://console.anthropic.com
+2. 注册账号（需要国外手机号或邮箱）
+3. 登录后点击「API Keys」
+4. 点击「Create Key」生成密钥
+5. 新用户有免费额度
+
+**配置方式**：
 ```bash
 # 编辑配置文件
-vim ~/.openclaw/config/.env
+vim ~/.openclaw/workspace/config/.env
 
 # 添加以下内容
-ONEAPI_API_KEY=sk-xxxxxxxx
-ONEAPI_BASE_URL=https://api.oneapi.com/v1
+ANTHROPIC_API_KEY=your-api-key-here
 ```
 
-### 方式二：直接使用LLM API
+#### OpenAI (GPT)
 
-**Claude API**：
-```bash
-ANTHROPIC_API_KEY=sk-ant-xxxxxxxx
-```
+**注册步骤**：
+1. 访问官网：https://platform.openai.com
+2. 注册账号（需要国外手机号）
+3. 登录后点击「API Keys」
+4. 点击「Create new secret key」
+5. 需要绑定信用卡
 
-**GPT API**：
+**配置方式**：
 ```bash
-OPENAI_API_KEY=sk-xxxxxxxx
+# 编辑配置文件
+vim ~/.openclaw/workspace/config/.env
+
+# 添加以下内容
+OPENAI_API_KEY=your-api-key-here
 OPENAI_BASE_URL=https://api.openai.com/v1
 ```
 
-**GLM API**：
+#### 智谱AI (GLM)
+
+**注册步骤**：
+1. 访问官网：https://open.bigmodel.cn
+2. 注册账号（国内手机号即可）
+3. 登录后点击「API密钥」
+4. 点击「创建密钥」
+5. 新用户有免费额度
+
+**配置方式**：
 ```bash
-GLM_API_KEY=xxxxxxxx
+# 编辑配置文件
+vim ~/.openclaw/workspace/config/.env
+
+# 添加以下内容
+GLM_API_KEY=your-api-key-here
 GLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4
+```
+
+### 方式二：使用OneAPI（统一接口）
+
+**优点**：
+- 统一接口调用多个模型
+- 成本可控
+- 国内可用
+
+**注册步骤**：
+1. 访问OneAPI平台
+2. 注册账号
+3. 充值余额
+4. 获取API Key
+
+**配置方式**：
+```bash
+# 编辑配置文件
+vim ~/.openclaw/workspace/config/.env
+
+# 添加以下内容
+ONEAPI_API_KEY=your-api-key-here
+ONEAPI_BASE_URL=https://api.oneapi.com/v1
 ```
 
 ### 测试API
 
+配置完成后，测试API是否可用：
+
 ```bash
-# 测试OneAPI
-curl -X POST https://api.oneapi.com/v1/chat/completions \
-  -H "Authorization: Bearer $ONEAPI_API_KEY" \
+# 测试Claude API
+curl -X POST https://api.anthropic.com/v1/messages \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "claude-3-sonnet",
-    "messages": [{"role": "user", "content": "测试"}]
+    "model": "claude-3-sonnet-20240229",
+    "max_tokens": 1024,
+    "messages": [{"role": "user", "content": "Hello"}]
+  }'
+
+# 测试OpenAI API
+curl -X POST https://api.openai.com/v1/chat/completions \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "gpt-4",
+    "messages": [{"role": "user", "content": "Hello"}]
+  }'
+
+# 测试GLM API
+curl -X POST https://open.bigmodel.cn/api/paas/v4/chat/completions \
+  -H "Authorization: Bearer $GLM_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "glm-4",
+    "messages": [{"role": "user", "content": "Hello"}]
   }'
 ```
 
@@ -84,10 +148,9 @@ curl -X POST https://api.oneapi.com/v1/chat/completions \
 
 2. **导出Cookie**
    - 打开浏览器开发者工具（F12）
-   - 切换到Network标签
-   - 刷新页面
-   - 找到任意请求
-   - 复制Cookie值
+   - 切换到Application/存储标签
+   - 找到Cookies → https://creator.xiaohongshu.com
+   - 复制所有Cookie信息
 
 3. **保存Cookie**
    ```bash
@@ -101,7 +164,7 @@ curl -X POST https://api.oneapi.com/v1/chat/completions \
      "cookies": [
        {
          "name": "web_session",
-         "value": "你的Cookie值",
+         "value": "粘贴你复制的Cookie值",
          "domain": ".xiaohongshu.com",
          "path": "/",
          "expires": -1,
@@ -111,6 +174,11 @@ curl -X POST https://api.oneapi.com/v1/chat/completions \
      ]
    }
    ```
+
+   **注意**：
+   - Cookie值是你的账号信息，请妥善保管
+   - 不要分享给他人
+   - 定期更新Cookie（过期后重新登录导出）
 
 4. **测试Cookie**
    ```bash

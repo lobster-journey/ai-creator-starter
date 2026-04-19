@@ -182,20 +182,70 @@
 
 #### 第二步：配置AI智能体（我们提供工具）
 
-**1. 配置LLM API**
-- 用于内容生成
-- 支持 Claude/GPT/GLM
-- 配置文件：`config/.env`
+**1. 获取LLM API密钥**
+
+你需要选择一个LLM服务并获取API密钥：
+
+**Claude (Anthropic)**
+- 官网：https://console.anthropic.com
+- 注册账号并获取API Key
+- 新用户有免费额度
+
+**OpenAI (GPT)**
+- 官网：https://platform.openai.com
+- 注册账号并获取API Key
+- 需要绑定信用卡
+
+**智谱AI (GLM)**
+- 官网：https://open.bigmodel.cn
+- 注册账号并获取API Key
+- 国内可用，免费额度较多
+
+**配置方式**：
+```bash
+# 创建配置文件
+cp .env.example .env
+
+# 编辑配置文件，填入你的API密钥
+vim .env
+
+# 示例配置
+ONEAPI_API_KEY=your-api-key-here
+ANTHROPIC_API_KEY=your-api-key-here
+```
 
 **2. 配置平台账号**
-- 小红书/抖音/B站等
-- 导出Cookie
-- 配置文件：`config/cookies/`
+
+你需要提供目标平台的账号信息：
+
+**小红书**
+- 登录创作者平台：https://creator.xiaohongshu.com
+- 打开浏览器开发者工具（F12）
+- 导出Cookie信息
+- 保存到配置文件
+
+**抖音/B站等**
+- 类似方式获取Cookie
+- 详见各平台配置文档
+
+**配置方式**：
+```bash
+# Cookie保存位置
+~/.openclaw/workspace/config/cookies/xiaohongshu.json
+
+# 确保文件权限安全
+chmod 600 ~/.openclaw/workspace/config/cookies/xiaohongshu.json
+```
 
 **3. 配置定时任务**
-- 内容生成时间
-- 发布时间
-- 数据采集时间
+
+根据你的需求设置运营时间：
+
+**推荐配置**：
+- 内容生成：每天早上8:00
+- 内容发布：每天早上9:00
+- 数据采集：每天晚上20:00
+- 数据分析：每天晚上22:00
 
 **详细步骤**：[环境配置指南](./docs/02-environment-setup.md)
 
