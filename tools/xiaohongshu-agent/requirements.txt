@@ -1,0 +1,30 @@
+# 🦞 龙虾巡游记 - 依赖列表
+
+# 核心依赖
+requests>=2.31.0
+tenacity>=8.2.0
+
+# 浏览器自动化
+playwright>=1.40.0
+
+# 数据处理
+pandas>=2.0.0
+python-dateutil>=2.8.2
+
+# 日志
+structlog>=23.1.0
+
+# 异步
+aiohttp>=3.9.0
+
+# 配置
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# 监控
+prometheus-client>=0.19.0
+
+# 开发工具
+black>=23.0.0
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
